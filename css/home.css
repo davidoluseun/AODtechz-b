@@ -1,0 +1,102 @@
+/* Carousel
+-------------------------------*/
+
+.carousel-caption {
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-caption h2 {
+    font-size: 1.2rem;
+}
+
+/* Portfolio
+-------------------------------*/
+
+.port-body {
+    position: relative;
+}
+
+.img-port {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.port-title {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    padding: .5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    transform: scale(0);
+    background: #222525;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: transform .3s ease-in-out;
+}
+
+.port-body:hover .port-title {
+    transform: scale(1);
+}
+
+.port-body a:focus + .port-title {
+    transform: scale(1);
+}
+
+/* Trusted by
+-------------------------------*/
+
+.trusted {
+    background: #f9f9f9;
+}
+
+/* Media queries
+------------------------------*/
+
+@media (min-width: 576px) {
+
+    /* Carousel
+    -------------------------------*/
+
+    .carousel-caption h2 {
+        font-size: 2.0rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem;
+    }
+
+    /* Portfolio
+    -------------------------------*/
+
+    .port-body {
+        transition: transform .3s ease-in-out;
+    }
+
+    .port-body:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    /* Featured carousel
+    ------------------------------*/
+
+    .carousel-inner {
+        max-height: 30rem;
+    }
+
+    .carousel-caption {
+        bottom: 5%;
+    }
+
+}
