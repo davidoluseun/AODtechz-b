@@ -1,0 +1,170 @@
+/* Main navigation
+-------------------------------*/
+
+.bg-header {
+    background: #a70042;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #fff;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    opacity: .5;
+}
+
+/* Footer
+-------------------------------*/
+
+.bg-footer {
+    background: #222525;
+}
+
+.socialmd-links {
+    display: inline-block;
+    margin: 10px 5px 0;
+    color: #fff;
+}
+
+.hex-icon {
+    display: inherit;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    position: relative;
+    margin: 10px 0;
+    z-index: 1;
+}
+
+.hex-icon,
+.hex-icon:before,
+.hex-icon:after {
+    height: 20px;
+    width: 34px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.hex-icon:before,
+.hex-icon:after {
+    content: '';
+    position: absolute;
+    left: -1px;
+    z-index: -1;
+}
+
+.hex-icon:before {
+    transform: rotate(60deg);
+}
+
+.hex-icon:after {
+    transform: rotate(-60deg);
+}
+
+/* Twitter */
+
+.twitter-icon,
+.twitter-icon:before,
+.twitter-icon:after {
+    background: #00acee;
+    border-color: #00acee;
+}
+
+.twitter-link:hover {
+    color: #00acee;
+}
+
+.twitter-link:hover .twitter-icon,
+.twitter-link:hover .twitter-icon:before,
+.twitter-link:hover .twitter-icon:after {
+    background: transparent;
+}
+
+/* Facebook */
+
+.facebook-icon,
+.facebook-icon:before,
+.facebook-icon:after {
+    background: #3b5998;
+    border-color: #3b5998;
+}
+
+.facebook-link:hover {
+    color: #3b5998;
+}
+
+.facebook-link:hover .facebook-icon,
+.facebook-link:hover .facebook-icon:before,
+.facebook-link:hover .facebook-icon:after {
+    background: transparent;
+}
+
+/* Google+ */
+
+.google-plus-icon,
+.google-plus-icon:before,
+.google-plus-icon:after {
+    background: #db4a39;
+    border-color: #db4a39;
+}
+
+.google-plus-link:hover {
+    color: #db4a39;
+}
+
+.google-plus-link:hover .google-plus-icon,
+.google-plus-link:hover .google-plus-icon:before,
+.google-plus-link:hover .google-plus-icon:after {
+    background: transparent;
+}
+
+/* YouTube */
+
+.youtube-icon,
+.youtube-icon:before,
+.youtube-icon:after {
+    background:  #c4302b;
+    border-color: #c4302b;
+}
+
+.youtube-link:hover {
+    color: #c4302b;
+}
+
+.youtube-link:hover .youtube-icon,
+.youtube-link:hover .youtube-icon:before,
+.youtube-link:hover .youtube-icon:after {
+    background: transparent;
+}
+
+/* Instagram */
+
+.instagram-icon,
+.instagram-icon:before,
+.instagram-icon:after {
+    background:  #ea4c89;
+    border-color: #ea4c89;
+}
+
+.instagram-link:hover {
+    color: #ea4c89;
+}
+
+.instagram-link:hover .instagram-icon,
+.instagram-link:hover .instagram-icon:before,
+.instagram-link:hover .instagram-icon:after {
+    background: transparent;
+}
+
+.bg-madeby {
+    background: #a70042;
+}
+
+.heart-icon {
+    color: #222525;
+}
