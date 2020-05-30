@@ -17,7 +17,7 @@ function initMap() {
     });
 
     // Declare popupString variable, assign popup text to it
-    var popupString = "<strong>AODtechz Company Inc</strong><br>";
+    var popupString = "<strong>AODtechz Company Inc.</strong><br>";
         popupString += "A3C Ikosi Road Oregun<br>";
         popupString += "Ikeja, Lagos<br>";
         popupString += "Nigeria";
