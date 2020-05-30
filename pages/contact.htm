@@ -61,12 +61,12 @@
                                 <div class="d-sm-flex">
                                     <div class="form-group flex-sm-fill mr-sm-2">
                                         <label class="form-control-label" for="firstname">First Name</label>
-                                        <input class="form-control" type="text" id="firstname" placeholder="Your First Name" required>
+                                        <input class="form-control" type="text" name="firstname" id="firstname" placeholder="Your First Name" required>
                                         <div class="invalid-feedback" role="alert">This field is required</div>
                                     </div><!-- .form-group -->
                                     <div class="form-group flex-sm-fill ml-sm-2">
                                         <label class="form-control-label" for="lastname">Last Name</label>
-                                        <input class="form-control" type="text" id="lastname" placeholder="Your Last Name" required>
+                                        <input class="form-control" type="text" name="lastname" id="lastname" placeholder="Your Last Name" required>
                                         <div class="invalid-feedback" role="alert">This field is required</div>
                                     </div><!-- .form-group -->
                                 </div><!-- .d-sm-flex -->
@@ -74,20 +74,20 @@
                                 <div class="d-sm-flex">
                                     <div class="form-group flex-sm-fill mr-sm-2">
                                         <label class="form-control-label" for="emailaddress">Enter Address</label>
-                                        <input class="form-control" type="email" id="emailaddress" placeholder="Your Email" required>
-                                        <small class="form-text text-muted" id="emailHelp">We'll never share your email</small>
+                                        <input class="form-control" type="email" name="emailaddress" id="emailaddress" aria-describedby="emailhelp" placeholder="Your Email" required>
+                                        <small class="form-text text-muted" id="emailhelp">We'll never share your email</small>
                                         <div class="invalid-feedback" role="alert">This field is required, please provide a valid email address</div>
                                     </div><!-- .form-group -->
                                     <div class="form-group flex-sm-fill ml-sm-2">
                                         <label class="form-control-label" for="phonenumber">Phone Number</label>
-                                        <input class="form-control" type="number" id="phonenumber" placeholder="Your Phone Number" required>
+                                        <input class="form-control" type="number" name="phonenumber" id="phonenumber" min="0" max="9" placeholder="Your Phone Number" required>
                                         <div class="invalid-feedback" role="alert">This field is required, please provide your number</div>
                                     </div><!-- .form-group -->
                                 </div><!-- .d-sm-flex -->
 
                                 <div class="form-group">
                                     <label class="form-control-label" for="contactmessage">Message</label>
-                                    <textarea class="form-control" id="contactmessage" rows="5" required></textarea>
+                                    <textarea class="form-control" name="contactmessage" id="contactmessage" rows="5" required></textarea>
                                     <div class="invalid-feedback" role="alert">This feed in required</div>
                                 </div><!-- .form-group -->
 
@@ -179,7 +179,7 @@
                         </p>
                         <form class="form-inline form-validation" action="../mail/newsletter.php" method="post" novalidate>
                             <div class="input-group w-100">
-                                <input class="form-control" type="email" placeholder="Search AODtechz..." required>
+                                <input class="form-control" type="email" name="newsletteremail" placeholder="Search AODtechz..." required>
                                 <span class="input-group-btn">
                                     <button class="btn btn-primary" type="submit">Go!</button>
                                 </span><!-- .input-group-btn -->
