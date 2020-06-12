@@ -46,6 +46,18 @@
 /* Media queries
 ------------------------------*/
 
+@media (min-width: 576px) {
+
+    /* Get in touch
+    -------------------------------*/
+
+    .flex-sm-fill { 
+        flex: 1 1 50%!important;
+    }
+
+}
+
+
 @media (min-width: 768px) {
 
     /* Page title
